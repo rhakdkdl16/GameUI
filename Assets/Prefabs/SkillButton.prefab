@@ -117,7 +117,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 7226431917419810001}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 822040199430145466}
+        m_MethodName: OnclickBT
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!95 &8346824374224374172
@@ -151,6 +162,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4bd2b54816047cd43aee39502a543f29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  skillPrefab: {fileID: 1350690206242543156, guid: d27daf4786a1c9740bbd38f32d5c3dbd,
+    type: 3}
 --- !u!1 &7226431918588107291
 GameObject:
   m_ObjectHideFlags: 0

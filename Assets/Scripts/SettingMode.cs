@@ -12,7 +12,7 @@ public class SettingMode : MonoBehaviour
    public void OnClick()
     {
         editMode = !editMode;
-        if (!editMode)
+        if (editMode == true)
         {
             Instantiate(charButton, transform);
             Instantiate(skillButton, transform);
@@ -21,7 +21,7 @@ public class SettingMode : MonoBehaviour
 
              
         }
-        if(editMode)
+        else
         {
 
             ButtonViewManager[] buttonViewManager = gameObject.GetComponentsInChildren<ButtonViewManager>();

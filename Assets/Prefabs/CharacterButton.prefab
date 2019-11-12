@@ -117,7 +117,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 6326993868460973041}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1635112768765543576}
+        m_MethodName: OnclickItem
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1635112768765543576
@@ -132,6 +143,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf024d256b9f26b4e9dc265a2a4289d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  chararcterPrefab: {fileID: 6683794669386178274, guid: 4236cb66470a9804896496c65a583f29,
+    type: 3}
 --- !u!95 &3187336270599364286
 Animator:
   serializedVersion: 3

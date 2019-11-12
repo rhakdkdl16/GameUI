@@ -69,7 +69,7 @@ MonoBehaviour:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 14
     m_FontStyle: 0
-    m_BestFit: 0
+    m_BestFit: 1
     m_MinSize: 10
     m_MaxSize: 40
     m_Alignment: 4
@@ -78,7 +78,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Button
+  m_Text: "\uC124\uC815"
 --- !u!1 &6888822789021535592
 GameObject:
   m_ObjectHideFlags: 0
@@ -196,7 +196,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 6888822789021535589}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 8130811032190639959}
+        m_MethodName: OnclickSetting
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!95 &5565684647091934838
@@ -230,3 +241,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 432b5c4004e310741abf56e86c9eebe6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settingPrefab: {fileID: 1350690206242543156, guid: 15a4f07006324cd4bbb256f59fe94436,
+    type: 3}
