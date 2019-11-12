@@ -14,5 +14,11 @@ public class SkillButton : ButtonViewManager
         {
             SkillPanel skillPanel = Instantiate(skillPrefab, transform.parent.parent).GetComponent<SkillPanel>();
         }
-    }  
+        else
+        {
+            PanelManager game = GameObject.FindGameObjectWithTag("PANEL").GetComponent<PanelManager>();
+            game.Close();
+            SkillPanel skillPanel = Instantiate(skillPrefab, transform.parent.parent).GetComponent<SkillPanel>();
+        }
+      }  
 }

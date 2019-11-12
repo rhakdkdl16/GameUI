@@ -16,6 +16,12 @@ public class QuestButton : ButtonViewManager
         {
             QuestPanel chrarter = Instantiate(questPrefab, transform.parent.parent).GetComponent<QuestPanel>();
         }
+        else
+        {
+            PanelManager game = GameObject.FindGameObjectWithTag("PANEL").GetComponent<PanelManager>();
+            game.Close();
+            QuestPanel chrarter = Instantiate(questPrefab, transform.parent.parent).GetComponent<QuestPanel>();
+        }
     }
 
 

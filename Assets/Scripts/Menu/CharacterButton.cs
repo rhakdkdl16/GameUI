@@ -16,6 +16,12 @@ public class CharacterButton : ButtonViewManager
         {
             ChrarterPanel chrarter = Instantiate(chararcterPrefab, transform.parent.parent).GetComponent<ChrarterPanel>();
         }
+        else
+        {
+            PanelManager game = GameObject.FindGameObjectWithTag("PANEL").GetComponent<PanelManager>();
+            game.Close();
+            ChrarterPanel chrarter = Instantiate(chararcterPrefab, transform.parent.parent).GetComponent<ChrarterPanel>();
+        }
     }
    
   

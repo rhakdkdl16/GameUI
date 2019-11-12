@@ -16,5 +16,11 @@ public class SettingManager : ButtonViewManager
         {
             SettingPanel chrarter = Instantiate(settingPrefab, transform.parent.parent).GetComponent<SettingPanel>();
         }
+        else
+        {
+            PanelManager game = GameObject.FindGameObjectWithTag("PANEL").GetComponent<PanelManager>();
+            game.Close();
+            SettingPanel chrarter = Instantiate(settingPrefab, transform.parent.parent).GetComponent<SettingPanel>();
+        }
     }
 }
