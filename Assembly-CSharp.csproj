@@ -74,6 +74,8 @@
     <Compile Include="Assets\DualCorStudios\CamoUI Woodland\Standard Assets\CrossPlatformInput\Scripts\TiltInput.cs" />
     <Compile Include="Assets\DualCorStudios\CamoUI Woodland\Standard Assets\CrossPlatformInput\Scripts\TouchPad.cs" />
     <Compile Include="Assets\DualCorStudios\CamoUI Woodland\Standard Assets\CrossPlatformInput\Scripts\VirtualInput.cs" />
+    <Compile Include="Assets\Scripts\Item.cs" />
+    <Compile Include="Assets\Scripts\ItemList.cs" />
     <Compile Include="Assets\Scripts\Menu\CharacterButton.cs" />
     <Compile Include="Assets\Scripts\Menu\QuestButton.cs" />
     <Compile Include="Assets\Scripts\Menu\SettingManager.cs" />
@@ -83,6 +85,7 @@
     <Compile Include="Assets\Scripts\Panel\QuestPanel.cs" />
     <Compile Include="Assets\Scripts\Panel\SettingPanel.cs" />
     <Compile Include="Assets\Scripts\Panel\SkillPanel.cs" />
+    <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\SettingMode.cs" />
     <Compile Include="Assets\Scripts\View\ButtonViewManager.cs" />
     <Compile Include="Assets\Scripts\View\NavigationView.cs" />
